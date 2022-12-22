@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "line": 1,
+    "id": "login-functionality",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-functionality;valid-user-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Valid user login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is in login page",
+            "result": {
+              "status": "passed",
+              "duration": 58149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enter user name",
+            "result": {
+              "status": "passed",
+              "duration": 492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter password",
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 1272000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

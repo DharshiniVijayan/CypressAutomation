@@ -1,0 +1,372 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add new offering",
+    "line": 1,
+    "id": "add-new-offering",
+    "tags": [],
+    "uri": "protfolio.feature",
+    "elements": [
+      {
+        "id": "add-new-offering;submit-the-form-without-entering-the-mandatory-field",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Submit the form without entering the mandatory field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is in login page",
+            "result": {
+              "status": "failed",
+              "duration": 1777000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://credor-app.azurewebsites.net/login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142019:82)\n    at visitFailedByErr (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141323:12)\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142018:11)\nFrom previous event:\n    at visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141980:17)\n    at Context.visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142036:14)\n    at wrapped (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:156177:43)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/BDD/protfolio/protfolioStep.js:8:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enter user name",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on the login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User clicks on protfolio module",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User clicks add new offering",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks on next without entering mandatory field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Validation message appears",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-offering;form-reset-upon-clicking-add-new-offering",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Form reset upon clicking add new offering",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User is in login page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://credor-app.azurewebsites.net/login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142019:82)\n    at visitFailedByErr (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141323:12)\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142018:11)\nFrom previous event:\n    at visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141980:17)\n    at Context.visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142036:14)\n    at wrapped (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:156177:43)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/BDD/protfolio/protfolioStep.js:8:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User enter user name",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User enter password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User clicks on the login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User clicks on protfolio module",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User clicks add new offering",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User clicks on next without entering mandatory field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Validation message appears",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User enter data in input name field",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User select selects offering type drop down",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User closes the add new offering form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User clicks add new offering",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Display new offering form",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-offering;placeholder-is-available-in-all-input-field",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Placeholder is available in all input field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "User is in login page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://credor-app.azurewebsites.net/login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142019:82)\n    at visitFailedByErr (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141323:12)\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142018:11)\nFrom previous event:\n    at visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141980:17)\n    at Context.visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142036:14)\n    at wrapped (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:156177:43)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/BDD/protfolio/protfolioStep.js:8:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "User enter user name",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User enter password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User clicks on the login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "User clicks on protfolio module",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "User clicks add new offering",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Placeholder available in all input field",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-new-offering;multiple-selecter-can-be-done-in-select-visibility-box",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Multiple selecter can be done in select visibility box",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "User is in login page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://credor-app.azurewebsites.net/login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142019:82)\n    at visitFailedByErr (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141323:12)\n    at <unknown> (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142018:11)\nFrom previous event:\n    at visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:141980:17)\n    at Context.visit (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:142036:14)\n    at wrapped (https://credor-app.azurewebsites.net/__cypress/runner/cypress_runner.js:156177:43)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/BDD/protfolio/protfolioStep.js:8:5)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND credor-app.azurewebsites.net\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "User enter user name",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User enter password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User clicks on the login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "User clicks on protfolio module",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "User clicks add new offering",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "User selects more than one option in select visibility drop down",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
