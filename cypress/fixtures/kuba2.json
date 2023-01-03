@@ -1,0 +1,19 @@
+[
+  {
+    "username": "adminik",
+    "password": "2424askig",
+    "expected": "dashboard"
+  },
+
+  {
+    "username": "adminik1",
+    "password": "2424askigs",
+    "expected": "wrong username and password"
+  },
+
+  {
+    "username": "adminik2",
+    "password": "2424askigd",
+    "expected": "wrong username and password"
+  }
+]
